@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"
+    <title> Kelsey Stephens's Hobbies</title>
+    <link id=“styleLink” rel=“stylesheet” href="stylesheet1.css"
+</head>
+<body> 
+    <h1> Kelsey's Top Hobbies</h1>
+    <button type="button"
+    onclick="document.getElementById('styleLink').href='stylesheet1.css'"> Stylesheet One</button>
+    <button type="button"
+    onclick="document.getElementById('styleLink').href='stylesheet2.css'"> Stylesheet Two</button>
+    <button type="button"
+    onclick="document.getElementById('styleLink').href='stylesheet3.css'"> Stylesheet Three</button>
+    <br>
+    <div id="hobby1">
+        <h1> My First Hobby</h1>
+        <details>
+            <summary> Soccer</summary>
+            <p>I started playing soccer in the 3rd grade and played throughout high school. I now coach our middle school girls team and it’s been a blast these past couple of years!</p>
+            <img src="images/soccerball.jpeg" alt="soccerball">
+            <a href="https://www.ussoccer.com/>Visit USSoccer.com!</a>
+
+        </details>
+    </div>
+    <div id="hobby2">
+        <h1> My Second Hobby</h1>
+        <details>
+            <summary> Reading</summary>
+            <p> Reading has always been a huge part of my life. I love going to book stores to get physical copies of my favorite books. I have a large collection and have read about 99% of them. My top 5 books right now are: The Stand, Memoirs of a Geisha, Harry Potter Series, Pride and Prejudice, and Dune.</p>
+            <img src="images/reading.jpeg" alt="reading">
+            <a href="https://www.goodreads.com/> Visit Goodreads.com!"</a>
+
+        </details>
+    </div>
+    <div id="hobby3">
+        <h1> My Third Hobby</h1>
+        <details>
+            <summary> Travel</summary>
+            <p>I have been to the Bahamas, Jamaica, Antigua, and Mexico. We are planning to go to Scotland in 2023 and my dream destination is Japan.</p>
+            <img src="images/travel.jpeg" alt="travel">
+            <a href="https://www.travelocity.com/"> Visit Travelocity.com!<a/>
+   </body>
+   <footer>
+    <p>Author: Kelsey Stephens “EDCM 610 at Mercer University” &copy’</p>
+    
+  </footer>
+  
+</html>
